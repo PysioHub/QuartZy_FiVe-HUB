@@ -1,6 +1,6 @@
 # 伍英华HUB
 
-![](https://cdn.akaere.online/raw.githubusercontent.com/PysioHub/QuartZy_FiVe-HUB/refs/heads/master/%E4%B8%BB%E6%92%AD%E5%A4%B4%E5%83%8F.png)
+![](https://cdn.jsdelivr.net/gh/PysioHub/QuartZy_FiVe-HUB@refs/heads/main/主播头像.png)
 
 > [!TIP]
 > 本仓库仅供娱乐，禁止任何非法用途，更没有攻击任何人的意思与想法
