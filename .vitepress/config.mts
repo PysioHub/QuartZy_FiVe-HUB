@@ -1,4 +1,20 @@
-import { defineConfig } from 'vitepress'
+import { HeadConfig, defineConfig } from 'vitepress'
+
+
+//追踪代码
+const umamiScript: HeadConfig = ["script", {
+  defer: "true",
+  src: "https://umami.pysio.online/script.js",
+  "data-website-id": "9bdfb189-b22d-4399-a891-bfea5a386b46"
+}]
+
+const baseHeaders: HeadConfig[] = []
+
+const headers = process.env.NODE_ENV === "production" ?
+  [...baseHeaders, umamiScript] :
+  baseHeaders
+
+//结束
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,5 +40,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PysioHub/QuartZy_FiVe-HUB' }
     ]
-  }
+  },
+  head: headers    //追踪代码
 })
