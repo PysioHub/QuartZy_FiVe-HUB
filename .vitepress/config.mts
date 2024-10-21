@@ -37,6 +37,10 @@ export default defineConfig({
       }
     ],
 
+    search: {                       //搜索
+      provider: 'local'
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PysioHub/QuartZy_FiVe-HUB' }
     ]
